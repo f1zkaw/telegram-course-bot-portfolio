@@ -1,0 +1,30 @@
+# Private settings and secrets
+.env
+.env.*
+!.env.example
+*token*
+*.pem
+*.key
+# Real user data and log files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+# Client material or large media: do not publish without explicit rights
+assets/
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.pdf
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
